@@ -92,3 +92,13 @@ footer {
  *{
     scroll-behavior: smooth;
 }
+@media (max-width: 750px) {
+    nav {
+       display: flex;
+       flex-direction: column;
+    }
+
+     section {
+        padding: 20px;
+    }
+}
