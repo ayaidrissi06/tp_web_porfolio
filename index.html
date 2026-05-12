@@ -3,57 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <!-- On enlève le script d'ici -->
 </head>
 <body>
     <h1>Bienvenue dans mon portfolio</h1>
     <p>je suis étudiant en développement web </p>
     <a href="https://github.com/ayaidrissi06" target="_blank">voir mon GitHub</a>
     
-    <header>
-        <p>je suis dans header</p>
-    </header>
-
     <nav>
         <a href="#acceuil">Accueil</a>
         <a href="#apropos">A propos</a>
         <a href="#contact">Contact</a>  
         <a href="#projets">Projets</a>
-
     </nav>
-<section id="acceuil">
-    <h2>Accueil</h2>    
-    <p>je suis dans la section acceuil </p>
-</section>
-
-<section id="apropos">
-    <h2>A propos</h2>           
-    <p>je suis dans la section a propos </p>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>        
-    <p>je suis dans la section contact </p>
-</section>
-
-<section id="projets">
-    <h2>Projets</h2>        
-    <p>je suis dans la section projets </p>
-</section>
 
     <main>
-        <p>je suis dans main </p>
-    </main>
+        <section id="acceuil">
+            <h2>Accueil</h2>    
+            <p>je suis dans la section acceuil </p>
+        </section>
 
-    <section>
-        <p>je suis dans la section </p>
-    </section>
+        <section id="apropos">
+            <h2>A propos</h2>           
+            <p>je suis dans la section a propos </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>        
+            <p>je suis dans la section contact </p>
+            <!-- On place le bouton ici pour qu'il soit visible -->
+            <button id="messageBtn">Afficher un message</button>
+            <p id="message"></p>
+        </section>
+
+        <section id="projets">
+            <h2>Projets</h2>        
+            <p>je suis dans la section projets </p>
+        </section>
+    </main>
 
     <footer>
         <p>je suis dans le footer</p>
     </footer>
-    
 
+    <!-- LE SCRIPT SE PLACE ICI -->
+    <script src="script.js"></script>
 </body>
+</html>
